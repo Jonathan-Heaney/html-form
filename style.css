@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  width: 20%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background-image: url(img/leaf-unsplash.jpeg);
+  background-size: cover;
+  width: 33%;
+  position: relative;
+  text-align: center;
+}
+
+.img-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  width: 100%;
+  top: 250px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-sidebar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.img-sidebar h1 {
+  color: white;
+  font-size: 7rem;
+}
+
+.attribution {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  color: white;
+}
+
+.attribution a {
+  color: white;
+}
+
+.header,
+.create-account {
+  background-color: rgba(230, 230, 230, 0.3);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+}
+
+.header,
+.info,
+.create-account {
+  min-height: 400px;
+}
+
+.content-container {
+  width: 80%;
+  padding: 2rem 0 1rem 4rem;
+}
+
+.content-container h2 {
+  font-size: 2rem;
+}
+
+.heading {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.row {
+  display: flex;
+  gap: 5rem;
+}
+
+.row .btn {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #596d48;
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: white;
+  padding: 1rem 4rem;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  scale: 0.98;
+  cursor: pointer;
+}
+
+.content-container h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3 a {
+  color: #596d48;
+  text-decoration: none;
+}
