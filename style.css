@@ -48,7 +48,7 @@ body {
 
 .img-sidebar h1 {
   color: white;
-  font-size: 7rem;
+  font-size: clamp(1rem, 5vw + 1rem, 6rem);
 }
 
 .attribution {
