@@ -93,10 +93,15 @@ body {
   margin-bottom: 2rem;
 }
 
+.info {
+  box-shadow: 0px 5px 10px #ccc;
+}
+
 form {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-top: 2rem;
 }
 
 .row {
@@ -104,7 +109,35 @@ form {
   gap: 5rem;
 }
 
-.row .btn {
+.form-item {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+input {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+}
+
+input:focus {
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+input[type='password'] {
+  border: 2px solid red;
+}
+
+label {
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 0.2rem;
+}
+
+.btn {
   outline: none;
   border: none;
   border-radius: 10px;
